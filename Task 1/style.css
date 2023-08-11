@@ -1,0 +1,310 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+
+.logo {
+    width: 4%;
+    border-radius: 50%;
+    margin: 5px 30px;
+}
+
+.container {
+    padding: 3% 12% 7%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    text-align: left;
+}
+
+.services-content {
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+    padding: 0 15px;
+}
+
+.services-content::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+}
+
+.services-content li {
+    margin: 0 3rem;
+}
+
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: #353535;
+}
+
+.dropdown-item:active p,
+.dropdown-item:hover p {
+    color: #fff;
+}
+
+.dropdown-item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dropdown-item ul {
+    list-style-type: disclosure-closed;
+    color: #000;
+}
+
+.dropdown-item:active ul,
+.dropdown-item:hover ul {
+    color: #fff;
+}
+
+p {
+    color: #000;
+}
+
+.services-section {
+    background-color: darkgray;
+}
+
+.services-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-content li img {
+    width: 130px;
+    height: 130px;
+}
+
+.services-content li p {
+    width: max-content;
+}
+
+.tech-section img {
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.pricing-section {
+    background-color: cadetblue;
+}
+
+.features {
+    list-style: none;
+}
+
+hr{
+    width: 90%;
+    margin: 10px auto;
+    background-color: #000;
+    height: 3px;
+    opacity: 0.75;
+}
+
+
+/****/
+
+
+/* Headings */
+.main-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.about-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+    background-color: rgb(203, 132, 0);
+    color: black;
+}
+
+.white-section {
+    background-color: white;
+    color: #000;
+}
+
+.black-section {
+    background-color: black;
+}
+
+/* Navbar */
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+/* Title */
+#title {
+    text-align: left;
+}
+
+.title-image {
+    width: 18%;
+    position: absolute;
+    right: 18%;
+}
+
+@media (max-width: 1220px) {
+    .title-image {
+        width: 50%;
+        position: static;
+        padding-top: 1.5%
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1550px) {
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-text {
+    font-size: 2rem;
+}
+
+.feature-box {
+    padding: 5%;
+    line-height: 1.5rem;
+}
+
+.fas {
+    color: #5dd9ff;
+    margin-bottom: 1rem;
+}
+
+.fas:hover {
+    color: #2481eb;
+}
+
+/* Testimonials */
+#tech {
+    background-color: lightblue;
+}
+
+.carousel-item {
+    padding: 3% 9%;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press */
+#press {
+    background-color: #1aa7d2;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 20%;
+    margin: 20px 20px 50px;
+    border-radius: 15%;
+}
+
+/* Pricing */
+.card-title {
+    padding-bottom: 5%;
+    font-size: 2rem;
+    color: white;
+}
+
+.card-title:hover {
+    font-weight: bold;
+}
+
+.lead {
+    padding: 1% 7%;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.lead:hover {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Call to Action */
+#cta {
+    padding: 5% 18% 8%;
+}
+
+.downloadbutton1 {
+    margin: 5% 2% 2% 2%;
+}
+
+/* Footer */
+#footer {
+    padding: 1%;
+}
+
+.social-icon {
+    padding: 1%;
+    color: black;
+}
